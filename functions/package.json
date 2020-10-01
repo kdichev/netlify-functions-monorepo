@@ -1,0 +1,13 @@
+{
+  "name": "functions",
+  "version": "0.0.1",
+  "author": "Konstantin Dichev",
+  "license": "MIT",
+  "scripts": {
+    "build-server": "netlify-lambda build src",
+    "start-server": "netlify-lambda serve src"
+  },
+  "dependencies": {
+    "netlify-lambda": "2.0.1"
+  }
+}

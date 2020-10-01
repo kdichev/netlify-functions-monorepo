@@ -1,0 +1,10 @@
+{
+  "name": "villy-monorepo",
+  "version": "0.0.1",
+  "author": "Konstantin Dichev",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "functions"
+  ]
+}
