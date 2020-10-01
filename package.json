@@ -5,7 +5,8 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "functions"
+    "functions",
+    "apps/*"
   ],
   "dependencies": {
     "netlify-lambda": "^2.0.1"
