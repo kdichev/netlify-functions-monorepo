@@ -1,3 +1,10 @@
 module.exports = {
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-ts-config`,
+      options: {
+        configDir: ".gatsby",
+      },
+    },
+  ],
 }

@@ -6,11 +6,13 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "gatsby": "^2.24.66",
+    "gatsby-plugin-ts-config": "^1.0.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
-    "prettier": "2.1.2"
+    "prettier": "2.1.2",
+    "typescript": "^4.0.3"
   },
   "keywords": [
     "gatsby"
