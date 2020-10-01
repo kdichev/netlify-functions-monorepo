@@ -6,5 +6,12 @@
   "private": true,
   "workspaces": [
     "functions"
-  ]
+  ],
+  "dependencies": {
+    "netlify-lambda": "^2.0.1"
+  },
+  "scripts": {
+    "build-server": "netlify-lambda build functions/src",
+    "start-server": "netlify-lambda serve functions/src"
+  }
 }
